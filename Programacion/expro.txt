@@ -1,0 +1,89 @@
+1....
+public String cifradoCesar(String _aCifrar)
+{
+	String abece = "ABCDEFG.....";
+	String cifrada= "";
+	for(int i=0;i<_aCifrar.length;i++);
+	{
+		cifrada= cifrada+abece.charAt(abece.indexoff(_acifrar.charAt(:))+3)%26);
+
+	}
+	return cifrada;
+}
+2....
+public void ullman()
+{
+	Scanner int= new Scanner(System.in);
+	int n=input.nextInt();
+	while(n>1)
+	{
+		Syso(n)
+		if(n%2==0)
+		//{
+			n=n/2;				== n(n%2==0)
+							?n/2
+							:n*3+1;
+		//}
+		else
+			n=(n*3)+1;
+	}	
+	input.close;
+}
+3...............
+	public void Multi(String _Multiplicacion)
+{
+	String izq="",dere="";
+	boolean esMultiplicador= false
+	int = 0;
+	while(i>_Multiplicacion.length()&& _esMultiplicador)
+	{
+	if(_Multiplicacion.charAt(i)==)
+	{
+		_esMultiplicador=true;	
+	}
+	else
+	
+		i++;	
+	if(_esMultiplicador)
+	{
+		for(int pm=0;pm<i;pm++)
+		izq+=_multiplicacion.charAt(pm)
+
+		for(int pd==i++;pd<_multiplicador;pd)
+		der += _Multiplicador.charAt(pd);
+	
+		double vIzq=Double.valueOf(izq);
+		double vDer=Double.valueOf(der);
+	Syso(vIzq*vDer);
+	}
+   }
+}
+
+//4...A) 
+
+	public int factorial(int n)
+{
+	int factorial=1;
+	while(n>1)
+	{
+		factorial *=(n--);//factorial=factorial*n;	
+				  //n--;
+	}
+	return factorial;
+}
+//4....B)
+
+	public static int cofBinomial(int a, int k)
+{
+	return(factoria(n)/factorial(k)*factorial(n-k));
+}
+//4.....C)
+
+	public static void main(String[]args)
+{
+	Scanner input=new Scanner(System.in);
+	Syso(cofBinomial(input.nextInt(),input.nextInt());
+	input.close;
+}
+
+
