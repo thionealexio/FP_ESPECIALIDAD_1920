@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+		<link rel="STYLESHEET" type="text/css" href="AlexanderMoralesReyes.css">
+		<title>Lenguaje de Marcas</title>
+</head>	
+<body>
+	<h1>Examen 1ª Evaluación (IES Clara del Rey)</h1>
+		<table>
+		<caption>Animales Seleccionados</caption>
+			<tr>
+				<th>Animal</th>
+				<th>Nombre Vulgar</th>
+				<th>Hábitat</th>
+				<th>Alimentación</th>
+				<th>Extinción</th>
+				<th>Salvaje</th>
+			</tr>
+			<tr>
+				<td><img id="leon" src="leon.jpg"></td>
+				<td><a href="https://es.wikipedia.org/wiki/Panthera_leon">León</a></td>
+				<td>Sabana Africana y Asi</td>
+				<td>Carnívoro</td>
+				<td>Sí, el león africano</td>
+				<td>Sí</td>
+			</tr>
+			<tr>
+				<td><img id="ave" src="avestruz.jpg">
+				<td><a href="https://es.wikipedia.org/wiki/Struthio_camelus">Avestruz</a></td>
+				<td>África</td>
+				<td>Herbívoro e insectívoro</td>
+				<td>Sí, el avestruz andino</td>
+				<td>Sí</td>
+			</tr>
+			<tr>
+				<td><img id="llama" src="llama.jpg"></td>
+				<td><a href="https://es.wikipedia.org/wiki/Llama_glama">Llama</a></td>
+				<td>Tierra altas de los Andes y el altiplano peruano a unos 4000 sobre el nivel del mar</td>
+				<td>Herbívoro</td>
+				<td>No</td>
+				<td>No</td>
+			</tr>	
+		</table>
+	<form id="form01" name="form01" method="post" action="#">
+		<fieldset>
+			<legend>Identificación</legend>
+		<label>Usuario*:</label>
+			<input type="text" name="usuario" required><br>
+		<label>Contraseña*:</label>					 <!----CARACTER--->
+			<input type="password" name="contraseña" <!----[DM1E]-----^DM1E$-->required>
+		</fieldset>
+		<fieldset>
+			<legend>Datos Personales</legend>
+		<label>Nombre:</label>
+			<input type="text" name="nombre" maxlength="40" size="45">
+		<label>Apellidos</label>
+			<input type="text" name="apellidos" maxlength="80" size="40"><br>
+		<label>Email:</label>
+			<input type="email" name="Email"><br>
+		<label>Ciudad:</label>
+			<select> <!-- combox == details -->
+ 				 <option value="Madrid">Madrid</option>
+			  	 <option value="Barcelona">Barcelona</option>
+	 			<option value="Sevilla">Sevilla</option>
+ 	 			<option value="La Coruña">La Coruña</option>
+			</select>
+		</fieldset>
+		<fieldset><!-- ^[3-5][C-F]+.{3,5}$--> 
+			<legend>Datos de información</legend>
+		<label>APADRINAR</label><br> <!-- NAME = tiene que ser igual en todos-->
+				A un León<input type="radio" name="leon"><br>
+				A una Avestruz<input type="radio" name="avestruz"><br>
+				A una Llama<input type="radio" name="lama" checked>
+				<br><br>
+		<p>RECIBIR INFORMACIÓN SOBRE</p>
+			León<input type="checkbox" name="leon">
+			Avestruz<input type="checkbox" name="avestruz">
+			Llama<input type="checkbox" name="llama">
+			Todos Ellos<input type="checkbox" name="todosellos" checked><br>
+			<input type="submit" id="submit" value="Enviar" /> <input type="reset" id="reset" value="Borrar Datos" />
+		</fieldset>
+
+	</form>
+
+</body>
+</html>

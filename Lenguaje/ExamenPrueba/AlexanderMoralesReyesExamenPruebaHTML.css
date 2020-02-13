@@ -1,0 +1,21 @@
+
+body
+{
+	background-image: linear-gradient(to right,blue 5%,indigo 95%,violet);
+}
+h2,h3{
+	font-size:3em;
+	color:white;
+	text-align:center;
+	text-decoration:underline;
+}
+article{
+	font:35px;
+	color: #B3ECCE;
+	font-weight:bold;
+}
+footer{
+	font:20px;
+	color:#E37759;
+	
+}

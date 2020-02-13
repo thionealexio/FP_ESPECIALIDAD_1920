@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pedidos</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="alexanderMoralesReyes_P2.css">
+</head>
+<body>
+	<h3 class="sombra encabezados">FORMULARIO DE PEDIDO</h3>
+	
+	<form action="visorPedido.html" method="post">
+	<table class="borde">
+		<tr>
+			<th class="bordeFino" colspan="3">Formulario de contacto</th>
+		</tr>
+		<tr>
+			<td colspan="3" class="bordeFino">Los campos marcados en rojo son obligatorios</td>
+		</tr>
+		<tr>
+			<td class="campoObligatorio descripcion bordeFino">Nombre</td>
+			<td colspan="2" class="bordeFino"><input type="text" maxlength="50" size="30" required/></td>
+		</tr>
+		<tr>
+			<td class="campoObligatorio descripcion bordeFino">Teléfono</td>
+			<td colspan="2" class="bordeFino"><input type="text" maxlength="12" size="30" required/></td>
+		</tr><tr>
+			<td class="campoObligatorio descripcion bordeFino">Dirección</td>
+			<td colspan="2" class="bordeFino"><input type="text" maxlength="12" size="30" required/></td>
+		</tr>
+		<tr>
+			<td class="campoObligatorio descripcion bordeFino">Mail</td>
+			<td colspan="2" class="bordeFino"><input type="text" maxlength="50" size="30"/></td>
+		</tr>
+		<tr>
+			<td class="descripcion bordeFino">Carta</td>
+			<td colspan="2" class="bordeFino">
+				<select name="comida">
+					<option value="Madrid">BBQ Chicken Bistro / 12,70 €</option>
+					<option value="La Coruña">Hamburguesa La Mante / 10,50 €</option>
+					<option value="Almería" selected="selected">Hamburguesa Baby Yankee / 16,00 €</option>
+					<option value="La Coruña">Hamburguesa Kevin Bacon / 19,10 €</option>
+					<option value="La Coruña">Hamburguesa Chiliraptor/ 15,50 €</option>
+					<option value="La Coruña">The King Bacon/ 13,50 €</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="centrado bordeFino"><input type="checkbox" checked="checked"/>Acepto los términos y condiciones</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="centrado campoObligatorio bordeFino"><img src="captcha.jpg" alt="imagen"/> <br>Teclee el texto de la imagen</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="centrado bordeFino"><input type="text" maxlength="50" size="30" required/></td>
+		</tr>
+		<tr>
+			<td class="centrado bordeFino"></td>
+			<td class="centrado bordeFino"><input type="submit" value="Realizar Pedido"/></td>
+			<td class="centrado bordeFino"><input type="reset" value="Limpiar Datos"/></td>
+		</tr>
+		
+	</table>
+	</form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animales SYSTEM "Animales.dtd">
+<animales>
+<animal codigo="a1">
+<nombre>vulpes:vulpes-Zorro</nombre>
+<dieta>Carnívoro</dieta>
+<habitat>Bosque</habitat>
+</animal>
+
+<animal codigo="a2">
+<nombre>Panthera Peli-Leon</nombre>
+<dieta>Carnívoro</dieta>
+<habitat>Sabana</habitat>
+</animal>
+
+<animal codigo="a3">
+<nombre>-Tigre</nombre>
+<dieta>Carnívoro</dieta>
+<habitat>Bosque</habitat>
+</animal>
+</animales>

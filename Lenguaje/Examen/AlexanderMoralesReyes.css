@@ -1,0 +1,37 @@
+table,th,td
+{
+	border: black 1px solid;
+}
+
+body
+{
+	color:blue;
+	font-size: 15px;
+	background-color: #aaa;
+
+}
+
+h1
+{
+	color: rgb(0%,20%,0%);
+}
+
+fieldset
+{
+	width: 1090px;
+}
+
+#ave
+{
+	width: 200px;
+}
+
+#leon
+{
+	width: 200px;
+}
+
+#llama
+{
+	width: 200px;
+}
